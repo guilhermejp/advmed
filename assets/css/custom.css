@@ -1,0 +1,25 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05/03/2018, 18:35:39
+    Author     : Guilherme
+*/
+
+
+.transparent-background {
+    -khtml-opacity:.90; 
+    -moz-opacity:.90; 
+    -ms-filter:”alpha(opacity=90)”;
+    filter:alpha(opacity=90);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0.90);
+    opacity:.90;
+}
+
+
+.btn-dark:not(:disabled):not(.disabled).active, .btn-dark:not(:disabled):not(.disabled):active, .show > .btn-dark.dropdown-toggle{
+    background-color: #1e88e5 !important;
+    border-color: #1e88e5 !important;
+}
